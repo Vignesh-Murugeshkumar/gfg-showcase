@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Card from '../components/Card';
 import SearchBar from '../components/SearchBar';
-import data from '../gfg-showcase/public/data.json';
+import data from '..public/data.json';
 
 export default function Home() {
   const [query, setQuery] = useState('');

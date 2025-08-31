@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import ReactMarkdown from 'react-markdown';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import data from '../gfg-showcase/public/data.json';
+import data from '..public/data.json';
 
 export default function DetailPage() {
   const router = useRouter();
